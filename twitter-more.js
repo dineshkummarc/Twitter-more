@@ -1,3 +1,4 @@
+/*global $:true */
 $('<a href="#" class="go-to-last">Last</a>')
     .click(function(){
         var lastOffset=$('.last-new-tweet').offset();
