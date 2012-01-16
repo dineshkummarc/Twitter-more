@@ -1,0 +1,11 @@
+.last-new-tweet {
+    border-bottom: 1px solid black;
+}
+
+.go-to-last {
+    display:inline;
+    padding:10px;
+    position:absolute;
+    right:-90px;
+    top:0;
+}
