@@ -9,3 +9,12 @@
     right:-90px;
     top:0;
 }
+.go-to-last i {
+     background-image: url("twitter-more_icons.png");
+     background-position: 0px 0px;
+     height: 19px;
+     width: 18px;
+}
+.go-to-last:hover i {
+    background-position: 0px -30px;
+}
