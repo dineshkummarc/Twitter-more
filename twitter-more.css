@@ -2,6 +2,10 @@
     border-bottom: 1px solid black;
 }
 
+.twitter-more-icon {
+     background-image: url("twitter-more_icons.png");
+}
+
 .go-to-last {
     display:inline;
     padding:10px;
@@ -10,7 +14,6 @@
     top:0;
 }
 .go-to-last i {
-     background-image: url("twitter-more_icons.png");
      background-position: 0px 0px;
      height: 19px;
      width: 18px;
@@ -18,3 +21,18 @@
 .go-to-last:hover i {
     background-position: 0px -30px;
 }
+
+.nav-lists {
+    background-position: -20px 0px;
+    height: 22px;
+    width: 21px;
+}
+
+a:hover .nav-lists {
+    background-position: -20px -30px;
+}
+
+.active .nav-lists, .active a:hover .nav-lists {
+    background-position: -20px -60px;
+}
+

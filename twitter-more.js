@@ -2,7 +2,7 @@
 
 // go to last unread tweet link
 // placed on the right of the top toolbar
-$('<a href="#" class="go-to-last"><i></i></a>')
+$('<a href="#" class="go-to-last"><i class="twitter-more-icon"></i></a>')
     .click(function(){
         var lastOffset = $('.last-new-tweet').offset();
         if(lastOffset){
@@ -19,5 +19,5 @@ $('<li><a class="js-hover" href="/#!/favorites">Favorites</a></li>')
     .appendTo('#global-actions');
 
 // lists link
-$('<li><a class="js-hover" href="/#!/lists">Lists</a></li>')
+$('<li><a class="js-hover" href="/#!/lists"><span class="new-wrapper"><i class="nav-lists twitter-more-icon"></i></span>Lists</a></li>')
     .appendTo('#global-actions');
