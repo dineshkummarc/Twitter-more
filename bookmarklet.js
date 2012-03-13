@@ -3,7 +3,7 @@
         fs  = d.getElementsByTagName('script')[0],
         js  = d.createElement('script'),
         css = d.createElement('link'),
-        url = 'http://floriancargoet.github.com/Twitter-more/';
+        url = 'https://floriancargoet.github.com/Twitter-more/';
 
     js.type = 'text/javascript';
     js.src  = url + 'twitter-more.js';
