@@ -18,3 +18,8 @@
 .go-to-last:hover i {
     background-position: 0px -30px;
 }
+
+/* hide ads */
+.promoted-tweet {
+    display:none;
+}
