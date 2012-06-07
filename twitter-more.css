@@ -10,7 +10,7 @@
     top:0;
 }
 .go-to-last i {
-     background-image: url("twitter-more_icons.png");
+     background-image: url("twitter-more_icons.png") !important;
      background-position: 0px 0px;
      height: 19px;
      width: 18px;
